@@ -1,0 +1,24 @@
+table{
+    border: 1px solid #000;
+    margin: 10px 10px;
+}
+th{
+    font-size: 10px;
+    width: 150px;
+    padding: 7px 5px;
+    background-color: #969595;
+}
+td{
+    width: 150px;
+    padding: 8px;
+    font-size: 10px;
+}
+tr:nth-child(odd){
+    background-color: #dbd8d8;
+}
+tr, th{
+    border: 1px solid #000;
+    margin: 0;
+}
+
+

@@ -1,0 +1,42 @@
+*,
+*::after,
+*::before{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+button{
+    border: none;
+    font-size: 10px;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px;
+}
+.container-btn{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: center;
+}
+.container-inp{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.container-inp label{
+    font-size: 10px;
+    margin: 10px;
+}
+.container-inp input:focus{
+    outline: none;
+}
+.container-inp #inp-1{
+    width: 200px;
+}
+.container-inp #inp-2{
+    width: 100px;
+}.container-inp #inp-3{
+     width: 130px;
+}.container-inp #inp-4{
+      width: 110px;
+}
