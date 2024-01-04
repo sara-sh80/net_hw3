@@ -59,7 +59,8 @@ class TableComp extends Component {
         const title = this.state.title
         let filteredInp = name ? this.state.data.filter(item => item.name.includes(name)) : this.state.data;
         filteredInp = field ? filteredInp.filter(item => item.field.includes(field)) : filteredInp;
-        filteredInp = field ? filteredInp.filter(item => item.field.includes(field)) : filteredInp;
+        filteredInp = date ? filteredInp.filter(item => item.date.includes(date)) : filteredInp;
+        filteredInp = title ? filteredInp.filter(item => item.title.includes(title)) : filteredInp;
         const slicedArray = filteredInp.slice((page_id - 1) * 20, page_id * 20);
         if (this.state.error) {
             return <div>Error: {this.state.error}</div>;
